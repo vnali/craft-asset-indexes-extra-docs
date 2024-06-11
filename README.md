@@ -62,3 +62,10 @@ View logs | *assetIndexesExtra-viewLogs* | Can view the logs.
 Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs.
 User can skip access check | *assetIndexesExtra-canSkipAccessCheck* | The user with this permission can create items without having permissions related to creation of those items. for example the user can create an entry by ruuning asset indexes on an section/entrytype/site which user have not access to them.
 Manage plugin Settings | *assetIndexesExtra-manageSettings* | Managing plugin settings.
+
+## FAQ
+
+## Known issues
+
+## Contact
+Feel free to contact me by email at vnali.dev@gmail.com or direct message me via 'vnali' on [Craft CMS Discord](https://craftcms.com/discord) channel.
