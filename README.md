@@ -23,8 +23,8 @@ In general settings page, there is an option, 'Only list the volumes that user h
 and asset indxeses option page. You can filter list of volumes to 'View Assets' and 'Save Assets'.
 
 ## Gnerate elements and items (entries, products and digital products) from assets on running asset indexes utility.
-You can create extra options for asset indexes utility. 
-After an asset is created by asset indexes utility, this plugin check for available asset indexes options based the volume of created asset.
+You can create extra options for asset indexes utility.  
+After an asset is created by asset indexes utility, this plugin check for available asset indexes options based the volume of created asset.  
 Based on applied asset indexes option, plugin creates an item (currently entries, products, digital products) specified in this option.
 
 ### create an option for asset indxes utlity:
