@@ -11,19 +11,7 @@ Craft 5 and higher.
 - Generate elements and items (entries, products and digital products) from assets on running asset indexes utility.
   - please request if you need another items
 - Log asset indexes results.
-- Limit access to volumes on asset indexes utility.
-
-## Log asset indexes results
-You can easily log asset indexes utility results by enabling 'Create a Log ...' on this plugin general setting.  
-By enabling this option, after running asset indexes utility, when an asset is created, a log record is also created.  
-Logs are availble on 'admin/asset-indexes-extra/logs/index' page.
-
-![logs](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/4c601436-481f-46f1-8f76-64f937ee5dda)
-
-
-## Limit access to volumes on asset indexes utility
-In general settings page, there is an option, 'Only list the volumes that user has related permission.'.  You can limit volumes that shown to users on asset indexes utlity
-and asset indxeses option page. You can filter list of volumes to 'View Assets' and 'Save Assets'.
+- Limit access to volumes on asset indexes utility.  
 
 ## Gnerate elements and items (entries, products and digital products) from assets on running asset indexes utility.
 You can create extra options for asset indexes utility.  
@@ -59,6 +47,18 @@ You can enable/disable this option temporarily
 
 ![asset-indexes-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/c95c8dcc-374a-486f-9cf1-0b87acd7c1a6)
 
+
+## Log asset indexes results
+You can easily log asset indexes utility results by enabling 'Create a Log ...' on this plugin general setting.  
+By enabling this option, after running asset indexes utility, when an asset is created, a log record is also created.  
+Logs are availble on 'admin/asset-indexes-extra/logs/index' page.
+
+![logs](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/4c601436-481f-46f1-8f76-64f937ee5dda)
+
+
+## Limit access to volumes on asset indexes utility
+In general settings page, there is an option, 'Only list the volumes that user has related permission.'.  You can limit volumes that shown to users on asset indexes utlity
+and asset indxeses option page. You can filter list of volumes to 'View Assets' and 'Save Assets'.  
 
 ## Permissions
 
