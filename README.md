@@ -38,7 +38,7 @@ Specify which item you want to create by this asset indexes option.
  - Based on selected item, there are sub items that you should select. for example, after selecting 'entry',  section and entry type and sites should be selected.
 
 `Field Mapping`  
-if you want to use an indexed asset on created item, specify the custom field for this asset.
+If you want to use an indexed asset on created item, specify the custom field for this asset.
 
 `Select users`   
 Specify this option can be used by which users.
