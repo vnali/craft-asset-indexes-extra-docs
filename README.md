@@ -54,21 +54,30 @@ By enabling this option, after running asset indexes utility, when an asset is c
 Items created by aset indexes options also can be logged by enabling `Log` lightswitch in each option.
 Logs are availble on 'admin/asset-indexes-extra/logs/index' page.
 
-Items available in logs:
+Items available in logs:  
+
+`Id`
+
 `Volume`
+Specify this log is result of indexing which volume.
 
 `Option`
+Specify this log is result of which asset indexes option (if Log is disabled for the option, value is empty)
 
 `Item`
+Filename of indexed item
 
 `User`
+The user who run asset indexes utility. return empty if user is deleted or asset indexes is run via cli.
 
 `CLI`
+if asset indexes is run via cli.
 
-`Detail`
+`Detail`  
+By clicking this item you can see more details of log.
 
 `Created`
-
+the date time when log is created based on site time zone.
 
 
 ![logs](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/4c601436-481f-46f1-8f76-64f937ee5dda)
