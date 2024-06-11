@@ -29,7 +29,7 @@ Based on applied asset indexes option, plugin creates an item (currently entries
  - entries, products, digital products that created by this plugin are always disabled so admins be able to audit them before publish.
 
 ### Create an option for asset indxes utlity:
-To create an option for asset indexes utility, select options sub menu from Asset Indexes Extra. You should fill this field in provided form:  
+To create an option for asset indexes utility, select options sub menu from Asset Indexes Extra. You should fill these fields in provided form:  
 
 `Volumes`  
 You can filter volumes that related to this asset indexes option.
