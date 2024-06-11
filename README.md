@@ -8,7 +8,7 @@ This is going to be a commercial plugin available through the [Craft plugin stor
 Craft 5 and higher.
 
 ## Main features:
-- Gnerate elements and items (entries, products and digital products) from assets on running asset indexes utility.
+- Generate elements and items (entries, products and digital products) from assets on running asset indexes utility.
   - please request if you need another items
 - Log asset indexes results.
 - Limit access to volumes on asset indexes utility.
