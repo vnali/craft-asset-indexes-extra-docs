@@ -58,8 +58,8 @@ Items available in logs:
 
 `Id`
 Specify Id of log record. the color of info icon is:  
-<b>Green:<b>  if item specified in this option is created. 
-<b>Red:<b>   if item specified in option is not created because of some errors and asset indexes log in general setting is disabled so successfull asset creation is not shown in log.  
+<b>Green:</b>  if item specified in this option is created. 
+<b>Red:</b>   if item specified in option is not created because of some errors and asset indexes log in general setting is disabled so successfull asset creation is not shown in log.  
 <b>Orange:</b>  if item specified in option is not created because of some errors but asset indexes log in general setting is enabled so successfull asset creation is shown in log.
 
 `Volume`
