@@ -54,6 +54,9 @@ is updated.
 `Enable`  
 You can enable/disable this option temporarily
 
+![asset-indexes-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/c95c8dcc-374a-486f-9cf1-0b87acd7c1a6)
+
+
 ## Permissions
 
 Label | Permission | Description
