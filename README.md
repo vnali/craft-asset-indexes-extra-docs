@@ -28,30 +28,31 @@ After an asset is created by asset indexes utility, this plugin check for availa
 Based on applied asset indexes option, plugin creates an item (currently entries, products, digital products) specified in this option.
 
 ### create an option for asset indxes utlity:
-- from Asset Indexes Extra menu, select options.
-`Volumes`
+from Asset Indexes Extra menu, select options.
+
+`Volumes`  
 You can filter volumes that related to this asset indexes option.
 
-`Item Type`
+`Item Type`  
 Specify which item you want to create by this asset indexes option.
  - Based on selected item, there are sub items that you should select.
 - For example, after selecting 'entry',  section and entry type and sites should be selected.
 
-`Field Mapping`
+`Field Mapping`  
 if you want to use an indexed asset on created item, specify the custom field for this asset.
 
-`Select users`
-- Specify this option can be used by which users.
+`Select users`   
+Specify this option can be used by which users.
   - for example, if userA run asset indexes for vol1, if an option matches for vol1 but userA is not selected for this option, creation of specified item is skipped.
   - if asset indexes utility run by console, this option is ignored.
 
-`Log`
+`Log`  
 By enabling the 'Log' option, a log record is created or the current log record is updated. 
 - a log record might be created earlier on creatoin of asset on asset index if General log setting is enabled. in this case current log record for the asset 
 is updated.
 
-`Enable`
-- You can enable/disable this option temporarily
+`Enable`  
+You can enable/disable this option temporarily
 
 ## Permissions
 
