@@ -57,11 +57,10 @@ Logs are availble on 'admin/asset-indexes-extra/logs/index' page.
 Items available in logs:  
 
 `Id`
-Id of log record.  
-the color of info icon: 
-green: if item specified in option is created.  
-orange: if item specified in option is not created but asset indexes log in general setting is enabled and one asset is created.  
-red: if item specified in option is not created and asset indexes log in general setting is disabled.
+Specify Id of log record. the color of info icon is:  
+green: if item specified in this option is created. 
+red: if item specified in option is not created because of some errors and asset indexes log in general setting is disabled so successfull asset creation is not shown in log.  
+orange: if item specified in option is not created because of some errors but asset indexes log in general setting is enabled so successfull asset creation is shown in log.
 
 `Volume`
 Specify this log is result of indexing which volume.
@@ -82,7 +81,7 @@ if asset indexes is run via cli.
 By clicking this item you can see more details of log.
 
 `Created`
-the date time when log is created based on site time zone.
+The datetime when log is created based on site timezone.
 
 
 ![logs](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/4c601436-481f-46f1-8f76-64f937ee5dda)
