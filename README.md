@@ -18,6 +18,9 @@ You can easily log asset indexes utility results by enabling 'Create a Log ...' 
 By enabling this option, after running asset indexes utility, when an asset is created, a log record is also created.  
 Logs are availble on 'admin/asset-indexes-extra/logs/index' page.
 
+![logs](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/4c601436-481f-46f1-8f76-64f937ee5dda)
+
+
 ## Limit access to volumes on asset indexes utility
 In general settings page, there is an option, 'Only list the volumes that user has related permission.'.  You can limit volumes that shown to users on asset indexes utlity
 and asset indxeses option page. You can filter list of volumes to 'View Assets' and 'Save Assets'.
