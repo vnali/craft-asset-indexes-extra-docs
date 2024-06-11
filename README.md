@@ -27,7 +27,7 @@ You can create extra options for asset indexes utility.
 After an asset is created by asset indexes utility, this plugin check for available asset indexes options based the volume of created asset.  
 Based on applied asset indexes option, plugin creates an item (currently entries, products, digital products) specified in this option.
 
-### create an option for asset indxes utlity:
+### Create an option for asset indxes utlity:
 from Asset Indexes Extra menu, select options.
 
 `Volumes`  
