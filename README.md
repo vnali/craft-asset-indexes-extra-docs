@@ -57,11 +57,11 @@ Logs are availble on 'admin/asset-indexes-extra/logs/index' page.
 Items available in logs:  
 
 `Id`
-Id of log record. 
-the color of info icon:
-green: if item specified in option is created
-orange: if item specified in option is not created, but log for asset indexes is enabled 
-red: if item specified in option is not created and asset indexes
+Id of log record.  
+the color of info icon: 
+green: if item specified in option is created.  
+orange: if item specified in option is not created but asset indexes log in general setting is enabled and one asset is created.  
+red: if item specified in option is not created and asset indexes log in general setting is disabled.
 
 `Volume`
 Specify this log is result of indexing which volume.
