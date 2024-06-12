@@ -10,17 +10,17 @@ Craft 5 and higher.
 ## Main features:
 - Generate elements and items (entries, products, and digital products) from assets on running asset indexes utility.
   - please request if you need another item.
-- Log asset indexes results.
+- Log asset index results.
 - Limit access to volumes on asset indexes utility.  
 
-## Gnerate elements and items (entries, products ,and digital products) from assets on running asset indexes utility.
+## Gnerate elements and items (entries, products, and digital products) from assets on running asset indexes utility.
 You can create extra options for asset indexes utility.  
-After an asset is created by the asset indexes utility, this plugin checks for available asset indexes options based the volume of created asset.  
-Based on the applied asset indexes option, the plugin creates an item (currently entries, products, digital products) specified in this option.
- - entries, products, digital products that were created by this plugin are always disabled so admins be able to audit them before publish.
+After an asset is created by the asset indexes utility, this plugin checks for available asset indexes options based on the volume of the created asset.  
+Based on the applied asset index option, the plugin creates an item (currently entries, products, digital products) specified in this option.
+ - entries, products and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
 
-### Create an option for asset indexes utlity:
-To create an option for asset indexes utility, select options sub menu from Asset Indexes Extra. You should fill in these fields in the provided form:  
+### Create an option for asset indexes utility:
+To create an option for asset indexes utility, select `options` sub menu from Asset Indexes Extra menu. You should fill in these fields in the provided form:  
 
 `Volumes`  
 You can filter volumes that are related to this asset indexes option.
@@ -39,7 +39,7 @@ Specify this option can be used by which users.
 
 `Log`  
 By enabling the 'Log' option, a log record is created or the current log record is updated. 
-- a log record might be created earlier on creatoin of asset on asset index if General log setting is enabled. in this case current log record for the asset 
+- a log record might be created earlier on creation of an asset via asset indexes utility if General log setting is enabled. in this case current log record for the asset 
 is updated.
 
 `Enable`  
@@ -50,8 +50,8 @@ You can enable/disable this option temporarily
 
 ## Log asset index results
 You can easily log asset index results by enabling 'Create a Log ...' on this plugin's general setting.  
-By enabling this option, after running asset indexes utility, when an asset is created, a log record is also created.  
-Items created by asset indexes options also can be logged by enabling the `Log` light switch in each option.
+By enabling this option, after running the asset indexes utility, when an asset is created, a log record is also created.  
+Items created by asset index options also can be logged by enabling the `Log` light switch in each option.
 Logs are available on 'admin/asset-indexes-extra/logs/index' page.
 
 Items available in logs:  
