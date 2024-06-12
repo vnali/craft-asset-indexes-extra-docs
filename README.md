@@ -48,11 +48,11 @@ You can enable/disable this option temporarily
 ![asset-indexes-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/c95c8dcc-374a-486f-9cf1-0b87acd7c1a6)
 
 
-## Log asset indexes results
-You can easily log asset indexes utility results by enabling 'Create a Log ...' on this plugin general setting.  
+## Log asset index results
+You can easily log asset index results by enabling 'Create a Log ...' on this plugin's general setting.  
 By enabling this option, after running asset indexes utility, when an asset is created, a log record is also created.  
-Items created by aset indexes options also can be logged by enabling `Log` lightswitch in each option.
-Logs are availble on 'admin/asset-indexes-extra/logs/index' page.
+Items created by asset indexes options also can be logged by enabling the `Log` light switch in each option.
+Logs are available on 'admin/asset-indexes-extra/logs/index' page.
 
 Items available in logs:  
 
@@ -89,8 +89,8 @@ The datetime when log is created based on site timezone.
 
 
 ## Limit access to volumes on asset indexes utility
-In general settings page, there is an option, 'Only list the volumes that user has related permission.'.  You can limit volumes that shown to users on asset indexes utlity
-and asset indxeses option page. You can filter list of volumes to 'View Assets' and 'Save Assets'.  
+In the general settings page, there is an option, 'Only list the volumes that user has related permission.'.  You can limit volumes that shown to users on the asset indexes utility
+and asset indexes option page. You can filter list of volumes to 'View Assets' and 'Save Assets'.  
 
 ## Permissions
 
