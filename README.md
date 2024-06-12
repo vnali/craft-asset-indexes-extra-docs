@@ -1,5 +1,5 @@
 # Asset Indexes Extra plugin for Craft CMS
-This Craft CMS plugin helps you to add extra functionalities to Asset Indexes utility in Craft CMS.
+This Craft CMS plugin helps you to add extra functionalities to the Asset Indexes utility in Craft CMS.
 
 ## License & Pricing
 This is going to be a commercial plugin available through the [Craft plugin store](https://plugins.craftcms.com/developer/vnali).
@@ -8,33 +8,33 @@ This is going to be a commercial plugin available through the [Craft plugin stor
 Craft 5 and higher.
 
 ## Main features:
-- Generate elements and items (entries, products and digital products) from assets on running asset indexes utility.
-  - please request if you need another items
+- Generate elements and items (entries, products, and digital products) from assets on running asset indexes utility.
+  - please request if you need another item.
 - Log asset indexes results.
 - Limit access to volumes on asset indexes utility.  
 
-## Gnerate elements and items (entries, products and digital products) from assets on running asset indexes utility.
+## Gnerate elements and items (entries, products ,and digital products) from assets on running asset indexes utility.
 You can create extra options for asset indexes utility.  
-After an asset is created by asset indexes utility, this plugin check for available asset indexes options based the volume of created asset.  
-Based on applied asset indexes option, plugin creates an item (currently entries, products, digital products) specified in this option.
- - entries, products, digital products that created by this plugin are always disabled so admins be able to audit them before publish.
+After an asset is created by the asset indexes utility, this plugin checks for available asset indexes options based the volume of created asset.  
+Based on the applied asset indexes option, the plugin creates an item (currently entries, products, digital products) specified in this option.
+ - entries, products, digital products that were created by this plugin are always disabled so admins be able to audit them before publish.
 
-### Create an option for asset indxes utlity:
-To create an option for asset indexes utility, select options sub menu from Asset Indexes Extra. You should fill these fields in provided form:  
+### Create an option for asset indexes utlity:
+To create an option for asset indexes utility, select options sub menu from Asset Indexes Extra. You should fill in these fields in the provided form:  
 
 `Volumes`  
-You can filter volumes that related to this asset indexes option.
+You can filter volumes that are related to this asset indexes option.
 
 `Item Type`  
 Specify which item you want to create by this asset indexes option.
- - Based on selected item, there are sub items that you should select. for example, after selecting 'entry',  section and entry type and sites should be selected.
+ - Based on the selected item, there are sub-items that you should select. for example, after selecting 'entry',  section and entry type and sites should be selected.
 
 `Field Mapping`  
-If you want to use an indexed asset on created item, specify the custom field for this asset.
+If you want to use an indexed asset on a created item, specify the custom field for this asset.
 
 `Select users`   
 Specify this option can be used by which users.
-  - for example, if userA run asset indexes for vol1, if an option matches for vol1 but userA is not selected for this option, creation of specified item is skipped.
+  - for example, if userA runs asset indexes for vol1, if an option matches for vol1 but userA is not selected for this option, the creation of the specified item is skipped.
   - if asset indexes utility run by console, this option is ignored.
 
 `Log`  
