@@ -96,10 +96,10 @@ and asset indxeses option page. You can filter list of volumes to 'View Assets' 
 
 Label | Permission | Description
 --- | --- | ---
-Manage asset indexes options | *assetIndexesExtra-manageOptions* | Can managee options for asset indexes utility.
+Manage asset indexes options | *assetIndexesExtra-manageOptions* | Can manage options for asset indexes utility.
 View logs | *assetIndexesExtra-viewLogs* | Can view the logs.
 Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs.
-User can skip access check | *assetIndexesExtra-canSkipAccessCheck* | The user with this permission can create items without having permissions related to creation of those items. for example the user can create an entry by ruuning asset indexes on an section/entrytype/site which user have not access to them.
+User can skip access check | *assetIndexesExtra-canSkipAccessCheck* | The user with this permission can create items without having permissions related to the creation of those items. for example, the user can create an entry by running asset indexes on a section/entrytype/site to which user have not access.
 Manage plugin Settings | *assetIndexesExtra-manageSettings* | Managing plugin settings.
 
 ## FAQ
