@@ -17,7 +17,7 @@ Craft 5 and higher.
 You can create extra options for asset indexes utility.  
 After an asset is created by the asset indexes utility, this plugin checks for available asset index options based on the volume of the created asset.  
 Based on the applied asset index option, the plugin creates an item (currently entries, products, digital products) specified in this option.
- - entries, products ,and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
+ - entries, products , and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
 
 ### Create an option for asset indexes utility:
 To create an option for asset indexes utility, select the `options` sub-menu from the Asset Indexes Extra menu. You should fill in these fields in the provided form:  
