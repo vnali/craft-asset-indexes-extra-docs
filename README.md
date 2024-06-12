@@ -20,7 +20,7 @@ Based on the applied asset index option, the plugin creates an item (currently e
  - entries, products ,and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
 
 ### Create an option for asset indexes utility:
-To create an option for asset indexes utility, select the `options` sub menu from the Asset Indexes Extra menu. You should fill in these fields in the provided form:  
+To create an option for asset indexes utility, select the `options` sub-menu from the Asset Indexes Extra menu. You should fill in these fields in the provided form:  
 
 `Volumes`  
 You can filter volumes that are related to this asset indexes option.
@@ -99,7 +99,7 @@ Label | Permission | Description
 Manage asset indexes options | *assetIndexesExtra-manageOptions* | Can manage options for asset indexes utility.
 View logs | *assetIndexesExtra-viewLogs* | Can view the logs.
 Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs.
-User can skip access check | *assetIndexesExtra-canSkipAccessCheck* | The user with this permission can create items without having permissions related to the creation of those items. for example, the user can create an entry by running asset indexes on a section/entrytype/site to which the user have no access.
+User can skip access check | *assetIndexesExtra-canSkipAccessCheck* | The user with this permission can create items without having permissions related to the creation of those items. for example, the user can create an entry by running asset indexes on a section/entrytype/site to which the user has no access.
 Manage plugin Settings | *assetIndexesExtra-manageSettings* | Managing plugin settings.
 
 ## FAQ
