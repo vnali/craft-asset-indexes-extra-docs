@@ -64,22 +64,22 @@ The color of the info icon is:
 <b>Orange:</b> If item specified in option is not created because of some errors but `Log` option in general setting is enabled so successful asset creation is reflected in the log.
 
 `Volume`
-Specify this log is result of indexing which volume.
+Specify that this log is result of indexing which volume.
 
 `Option`
-Specify this log is result of which asset indexes option (if Log is disabled for the option, value is empty)
+Specify this log is the result of which asset indexes option (if Log is disabled for the option, value is empty)
 
 `Item`
-Filename of indexed item
+the Filename of the indexed item.
 
 `User`
-The user who run asset indexes utility. return empty if user is deleted or asset indexes is run via cli.
+The user who runs asset indexes utility. return empty if the user is deleted or asset indexes are run via CLI.
 
 `CLI`
-if asset indexes is run via cli.
+if asset indexes are run via CLI.
 
 `Detail`  
-By clicking this item you can see more details of log.
+By clicking this item you can see more details of a log record.
 
 `Created`
 The datetime when log is created based on site timezone.
