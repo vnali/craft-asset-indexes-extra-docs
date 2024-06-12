@@ -2,7 +2,7 @@
 This Craft CMS plugin helps you to add extra functionalities to the Asset Indexes utility in Craft CMS.
 
 ## License & Pricing
-This is going to be a commercial plugin available through the [Craft plugin store](https://plugins.craftcms.com/developer/vnali).
+This is a commercial plugin available through the [Craft plugin store](https://plugins.craftcms.com/developer/vnali).
 
 ## Requirement
 Craft 5 and higher.
