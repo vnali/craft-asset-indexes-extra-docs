@@ -8,8 +8,7 @@ This is a commercial plugin available through the [Craft plugin store](https://p
 Craft 5 and higher.
 
 ## Main features:
-- Generate elements and items (entries, products, and digital products) from assets on running asset indexes utility.
-  - please request if you need another item.
+- Generate elements and items (entries, products, and digital products, ...) from assets on running asset indexes utility.
 - Log asset index results.
 - Limit access to volumes on asset indexes utility.  
 
