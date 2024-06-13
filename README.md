@@ -83,6 +83,7 @@ By clicking this item you can see more details of a log record.
 `Created`
 The date when the log is created in the site timezone.
 
+The logs can be searched via item's filename, result text, volume name, and username who run asset indexes.
 
 ![logs](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/4c601436-481f-46f1-8f76-64f937ee5dda)
 
