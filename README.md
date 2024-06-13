@@ -78,7 +78,7 @@ The user who runs asset indexes utility. return empty if the user is deleted or 
 if asset indexes are run via CLI.
 
 `Detail`  
-By clicking this item you can see more details of a log record.
+By clicking this item you can see more details of a log record. Created assets and items can be edited quickly via slideout by clicking on element chips.
 
 `Created`
 The date when the log is created in the site timezone.
