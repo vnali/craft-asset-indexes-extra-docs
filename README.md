@@ -56,8 +56,8 @@ You can enable/disable this option temporarily.
 ## Log asset index results
 You can easily log asset index results by enabling 'Create a Log ...' on this plugin's general setting.  
 By enabling this option, after running the asset indexes utility, when an asset is created, a log record is also created.  
-Items created by asset index options also can be logged by enabling the `Log` light switch in each option.
-Logs are available on the 'admin/asset-indexes-extra/logs/index' page.
+Items created by asset index options also can be logged by enabling the `Log` light switch in each option.  
+Logs can be viewed on the 'admin/asset-indexes-extra/logs/index' page.
 
 Items available in logs:  
 
