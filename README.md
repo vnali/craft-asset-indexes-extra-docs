@@ -43,6 +43,7 @@ Specify which users van use this option.
   - For example, if userA runs asset indexes for volume1, if an option matches for vol1 but userA is not selected for this option, the creation of the specified item is skipped.
   - If asset indexes utility run by console, 'Select Users' is ignored.
   - The user who fill in the form should have `editUsers` permission to view this field.
+  - selected users should have access to run asset indexes utility.
 
 `Log`  
 By enabling the 'Log' option, a log record is created or the current log record is updated. 
