@@ -74,17 +74,17 @@ Specify that this log is the result of indexing which volume.
 `Option`
 Specify this log is the result of which asset indexes option (if Log is disabled for the option, value is empty)
 
-`Item`
-the Filename of the indexed item.
+`Filename`
+The Filename of the indexed item.
 
 `User`
-The user who runs asset indexes utility. return empty if the user is deleted or asset indexes are run via CLI.
+The user who runs asset indexes utility. returns empty if the user is deleted or asset indexes are run via CLI.
 
 `CLI`
-if asset indexes are run via CLI.
+If asset indexes are run via CLI.
 
 `Detail`  
-By clicking this item you can see more details of a log record. Created assets and items can be edited quickly via slideout by clicking on element chips.
+By clicking this item you can see more details of a log record. Created assets and items can be edited quickly by clicking on element chips (if the user has related permission for viewing the item).
 
 `Created`
 The date when the log is created in the site timezone.
