@@ -16,6 +16,7 @@ Craft 5 and higher.
 - You can create extra options for asset indexes utility.  
 - After an asset is created by the asset indexes utility, this plugin checks for available asset index options based on the volume of the created asset.
   - The Asset index options are evaluated based on priority, with the highest priority item appearing at the top of the list.
+  - when an option is matched, checking for options are skipped.
 - Based on the applied asset index option, the plugin creates an item (currently entries, products, digital products) specified in this option.
  - entries, products , and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
 
@@ -38,8 +39,8 @@ If you want to use an indexed asset on a created item, specify the custom field 
 
 `Select users`   
 Specify which users van use this option.
-  - for example, if userA runs asset indexes for volume1, if an option matches for vol1 but userA is not selected for this option, the creation of the specified item is skipped.
-  - if asset indexes utility run by console, 'Select Users' is ignored.
+  - For example, if userA runs asset indexes for volume1, if an option matches for vol1 but userA is not selected for this option, the creation of the specified item is skipped.
+  - If asset indexes utility run by console, 'Select Users' is ignored.
 
 `Log`  
 By enabling the 'Log' option, a log record is created or the current log record is updated. 
