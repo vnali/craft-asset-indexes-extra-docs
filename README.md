@@ -19,6 +19,9 @@ Craft 5 and higher.
 - Based on the applied asset index option, the plugin creates an item (currently entries, products, digital products) specified in this option.
  - entries, products , and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
 
+![asset-index-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/32054ef4-137e-4356-8f14-b368957a7e59)
+
+
 ### Create an option for asset indexes utility:
 To create an option for asset indexes utility, select the `options` sub-menu from the Asset Indexes Extra menu. You should fill in these fields in the provided form:  
 
@@ -26,24 +29,25 @@ To create an option for asset indexes utility, select the `options` sub-menu fro
 You can filter volumes that are related to this asset indexes option.
 
 `Item Type`  
-Specify which item you want to create by this asset indexes option.
- - Based on the selected item, there are sub-items that you should select. for example, after selecting 'entry',  section and entry type and sites should be selected.
+Specify which item you want to create by this asset indexes option (Entry, Product, Digital Product).
+ - Based on the selected item, there are sub-items that you should select. For example, after selecting 'entry', the fields for section, entry type, and sites appear.
+  - Only structure and channel sections can be selected. sites menu only appear for sections with custom propagation method.
 
 `Field Mapping`  
 If you want to use an indexed asset on a created item, specify the custom field for this asset.
 
 `Select users`   
-Specify this option can be used by which users.
-  - for example, if userA runs asset indexes for vol1, if an option matches for vol1 but userA is not selected for this option, the creation of the specified item is skipped.
-  - if asset indexes utility run by console, this option is ignored.
+Specify which users van use this option.
+  - for example, if userA runs asset indexes for volume1, if an option matches for vol1 but userA is not selected for this option, the creation of the specified item is skipped.
+  - if asset indexes utility run by console, 'Select Users' is ignored.
 
 `Log`  
 By enabling the 'Log' option, a log record is created or the current log record is updated. 
 - a log record might be created earlier on the creation of an asset via asset indexes utility if the General log setting is enabled. in this case current log record for the asset 
-is updated.
+is updated with the log for created item.
 
 `Enable`  
-You can enable/disable this option temporarily
+You can enable/disable this option temporarily.
 
 ![asset-indexes-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/c95c8dcc-374a-486f-9cf1-0b87acd7c1a6)
 
