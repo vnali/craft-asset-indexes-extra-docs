@@ -12,7 +12,7 @@ Craft 5 and higher.
 - Log asset index results.
 - Limit access to volumes on asset indexes utility.  
 
-## Gnerate elements and items (entries, products, and digital products) from assets on running asset indexes utility.
+## Generate elements and items (entries, products, and digital products) from assets on running asset indexes utility.
 You can create extra options for asset indexes utility.  
 After an asset is created by the asset indexes utility, this plugin checks for available asset index options based on the volume of the created asset.  
 Based on the applied asset index option, the plugin creates an item (currently entries, products, digital products) specified in this option.
