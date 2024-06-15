@@ -13,9 +13,10 @@ Craft 5 and higher.
 - Limit access to volumes on asset indexes utility.  
 
 ## Generate elements and items (entries, products, and digital products) from assets on running asset indexes utility.
-You can create extra options for asset indexes utility.  
-After an asset is created by the asset indexes utility, this plugin checks for available asset index options based on the volume of the created asset.  
-Based on the applied asset index option, the plugin creates an item (currently entries, products, digital products) specified in this option.
+- You can create extra options for asset indexes utility.  
+- After an asset is created by the asset indexes utility, this plugin checks for available asset index options based on the volume of the created asset.
+  - The Asset index options are evaluated based on priority, with the highest priority item appearing at the top of the list.
+- Based on the applied asset index option, the plugin creates an item (currently entries, products, digital products) specified in this option.
  - entries, products , and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
 
 ### Create an option for asset indexes utility:
@@ -99,7 +100,6 @@ Label | Permission | Description
 Manage asset indexes options | *assetIndexesExtra-manageOptions* | Can manage options for asset indexes utility.
 View logs | *assetIndexesExtra-viewLogs* | Can view the logs.
 Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs.
-User can skip access check | *assetIndexesExtra-canSkipAccessCheck* | The user with this permission can create items without having permissions related to the creation of those items. for example, the user can create an entry by running asset indexes on a section/entrytype/site to which the user has no access.
 Manage plugin Settings | *assetIndexesExtra-manageSettings* | Managing plugin settings.
 
 ## FAQ
