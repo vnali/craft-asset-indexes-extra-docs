@@ -96,7 +96,7 @@ The logs can be searched via item's filename, result text, volume name, and user
 
 ## Limit access to volumes on asset indexes utility
 In the general settings page, there is an option, 'Only list the volumes that the user has related permission.'.  You can limit volumes that are shown to users on the asset indexes utility
-and asset indexes option page. You can filter the list of volumes to 'View Assets' and 'Save Assets'.  
+and asset index options page. You can filter the list of volumes to 'View Assets' and 'Save Assets'.  
 
 ## Permissions
 
