@@ -31,9 +31,10 @@ You can filter volumes that are related to this asset indexes option.
 
 `Item Type`  
 Specify which item you want to create by this asset indexes option (Entry, Product, Digital Product).
- - Based on the selected item, there are sub-items that you should select. For example, after selecting 'entry', the fields for section, entry type, and sites appear.
+ - Based on the selected item, there are sub-items that you should select. For example, after selecting 'Entry', the sub-fields for section, entry type, and sites appear.
   - Only structure and channel sections can be selected. (User should have access to viewEntries for the permission).
-  - sites menu only appear for sections with custom propagation method.
+  - Sites menu only appear for sections with custom propagation method.
+  - You can't edit item type for this option later if there is a log record referring to the this created option.
 
 `Field Mapping`  
 If you want to use an indexed asset on a created item, specify the custom field for this asset.
