@@ -75,25 +75,25 @@ Lime | If the item specified in the option is created but there are some info th
 Orange | If the item specified in the option is not created because of some errors but the `Log` option in the general setting is enabled so successful asset creation is reflected in this log record.
 Red | If the item specified in the option is not created because of some errors and the `Log` option general setting is disabled so successful asset creation is not reflected in this log record.  
 
-`Volume`
+`Volume`  
 Specify that this log is the result of indexing which volume.
 
-`Option`
+`Option`  
 Specify this log is the result of which asset indexes option (if Log is disabled for the option, value is empty)
 
-`Filename`
+`Filename`  
 The Filename of the indexed item.
 
-`User`
+`User`  
 The user who runs asset indexes utility. returns empty if the user is deleted or asset indexes are run via CLI.
 
-`CLI`
+`CLI`  
 If asset indexes are run via CLI.
 
 `Detail`  
 By clicking this item you can see more details of a log record. Created assets and items can be edited quickly by clicking on element chips (if the user has related permission for viewing the item).
 
-`Created`
+`Created`  
 The date when the log is created in the site timezone.
 
 The logs can be searched via item's filename, result text, volume name, and username who run asset indexes.
