@@ -71,7 +71,7 @@ Specify the ID of a log record with a colored icon.
 Color | Description
 --- | ---
 Green | If the item specified in the option is created.
-Lime | If the item specified in the option is created but there are some info that should be noticed.
+Purple | If the item specified in the option is created but there are some info that should be noticed.
 Orange | If the item specified in the option is not created because of some errors but the `Log` option in the general setting is enabled so successful asset creation is reflected in this log record.
 Red | If the item specified in the option is not created because of some errors and the `Log` option general setting is disabled so successful asset creation is not reflected in this log record.  
 
