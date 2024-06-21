@@ -111,7 +111,8 @@ Label | Permission | Description
 --- | --- | ---
 Manage asset indexes options | *assetIndexesExtra-manageOptions* | Can manage options for asset indexes utility.
 View logs | *assetIndexesExtra-viewLogs* | Can view the logs.
-Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs.
+View other users logs | *assetIndexesExtra-viewOtherUsersLogs* | Can view other user logs.
+Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs the user can view.
 Manage plugin Settings | *assetIndexesExtra-manageSettings* | Managing plugin settings.
 
 ## FAQ
