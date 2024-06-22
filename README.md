@@ -13,12 +13,12 @@ Craft 5 and higher.
 - Limit access to volumes on asset indexes utility.  
 
 ## Generate elements and items (entries, products, and digital products) from assets on running asset indexes utility.
-- You can create extra options for asset indexes utility.  
+- You can create extra options for asset indexes utility to generate other items in asset index utility.  
 - After an asset is created by the asset indexes utility, this plugin checks for available asset index options based on the volume of the created asset.
   - The Asset index options are evaluated based on priority, with the highest priority item appearing at the top of the list.
-  - when an option is matched, checking for options are skipped.
+  - When an option is matched by volumeId, checking for other options are skipped -even if the current user has not defined to use this option-. 
 - Based on the applied asset index option, the plugin creates an item (currently entries, products, digital products) specified in this option.
- - entries, products , and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
+ - Entries, commerce products , and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
 
 ![asset-index-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/32054ef4-137e-4356-8f14-b368957a7e59)
 
@@ -37,7 +37,7 @@ Specify which item you want to create by this asset indexes option (Entry, Produ
   - You can't edit item type for this option later if there is a log record referring to the this created option.
 
 `Field Mapping`  
-If you want to use an indexed asset on a created item, specify the custom field for this asset.
+If you want to use the indexed asset on the custom field of the created item, specify the custom field for this asset.
 
 `Select users`   
 Specify which users van use this option.
