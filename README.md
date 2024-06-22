@@ -40,11 +40,12 @@ Specify which item you want to create by this asset indexes option (Entry, Produ
 If you want to use the indexed asset on the custom field of the created item, specify the custom field for this asset.
 
 `Select users`   
-Specify which users van use this option.
-  - For example, if userA runs asset indexes for volume1, if an option matches for vol1 but userA is not selected for this option, the creation of the specified item is skipped.
+Specify which users can use this option.
+  - For example, if volume1 and only userA is defined for 'Select users' field of an option, if userB runs asset indexes for volume1 the creation of the specified item is skipped.
   - If asset indexes utility run by console, 'Select Users' is ignored.
   - The user who fill in the form should have `editUsers` permission to view this field.
-  - selected users should have access to run asset indexes utility.
+  - Selected users should have access to run asset indexes utility.
+  - If no user is selected for this field, all users can use this option.
 
 `Log`  
 By enabling the 'Log' option, a log record is created or the current log record is updated. 
