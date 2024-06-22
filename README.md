@@ -109,8 +109,9 @@ and asset index options page. You can filter the list of volumes to 'View Assets
 
 Label | Permission | Description
 --- | --- | ---
-Manage asset indexes options | *assetIndexesExtra-manageOptions* | Can manage options for asset indexes utility.
-View logs | *assetIndexesExtra-viewLogs* | Can view the logs.
+View Asset index options| *assetIndexesExtra-viewOptions* | Can view all asset index options.
+Manage asset indexes options | *assetIndexesExtra-manageOptions* | Can manage options (view/edit/reorder/delete) for asset indexes utility.
+View logs | *assetIndexesExtra-viewLogs* | Can view the logs created by the user.
 View other users logs | *assetIndexesExtra-viewOtherUsersLogs* | Can view other user logs.
 Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs the user can view.
 Manage plugin Settings | *assetIndexesExtra-manageSettings* | Managing plugin settings.
