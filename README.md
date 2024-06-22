@@ -41,7 +41,7 @@ If you want to use the indexed asset on the custom field of the created item, sp
 
 `Select users`   
 Specify which users can use this option.
-  - For example, if volume1 and only userA is defined for 'Select users' field of an option, if userB runs asset indexes for volume1 the creation of the specified item is skipped.
+  - For example, if volume1 and only userA is defined for 'Select users' field of an option, if userB runs asset indexes for volume1, the creation of the specified item is skipped.
   - If asset indexes utility run by console, 'Select Users' is ignored.
   - The user who fill in the form should have `editUsers` permission to view this field.
   - Selected users should have access to run asset indexes utility.
@@ -53,7 +53,7 @@ By enabling the 'Log' option, a log record is created or the current log record 
 is updated with the log for created item.
 
 `Enable`  
-You can enable/disable this option temporarily.
+You can disable this option to skip for checking/using this option.
 
 ![asset-indexes-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/c95c8dcc-374a-486f-9cf1-0b87acd7c1a6)
 
