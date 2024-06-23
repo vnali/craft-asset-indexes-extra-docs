@@ -94,7 +94,7 @@ The user who runs asset indexes utility. returns empty if the user is deleted or
 If asset indexes are run via CLI.
 
 `Detail`  
-By clicking this item you can see more details of a log record. Created assets and items can be edited quickly by clicking on element chips (if the user has related permission for viewing the item).
+By clicking this item you can see more details of a log record. Created assets and items can be edited quickly by clicking on element chips (if the user has related permission for viewing the item). also there might be a more info button which the user can see what was the option when the log was created (if the user has view option permision). 
 
 `Created`  
 The date when the log is created in the site timezone.
