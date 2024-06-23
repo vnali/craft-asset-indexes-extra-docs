@@ -101,7 +101,8 @@ The date when the log is created in the site timezone.
 
 The logs can be searched via item's filename, result text, volume name, and username who run asset indexes.
 
-![logs](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/4c601436-481f-46f1-8f76-64f937ee5dda)
+![Logs](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/f9e96620-aefc-48f8-a6c0-0e9adf311ca8)
+
 
 
 ## Limit access to volumes on asset indexes utility
