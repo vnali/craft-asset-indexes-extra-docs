@@ -110,7 +110,8 @@ You can limit volumes that are shown to users on the asset indexes utility and a
 
 Label | Permission | Description
 --- | --- | ---
-View Asset index options| *assetIndexesExtra-viewOptions* | Can view all asset index options.
+View asset indexes options that user has access to use them | *assetIndexesExtra-viewOptions* | Can view only asseet options that user is assigned to.
+View all asset index options| *assetIndexesExtra-viewAllOptions* | Can view all asset index options.
 Manage asset indexes options | *assetIndexesExtra-manageOptions* | Can manage options (view/edit/reorder/delete) for asset indexes utility.
 View logs | *assetIndexesExtra-viewLogs* | Can view the logs created by the user.
 View other users logs | *assetIndexesExtra-viewOtherUsersLogs* | Can view other user logs.
