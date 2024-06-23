@@ -20,9 +20,6 @@ Craft 5 and higher.
 - Based on the applied asset index option, the plugin creates an item (currently entries, products, digital products) specified in this option.
  - Entries, commerce products , and digital products that were created by this plugin are always disabled so admins are able to audit them before publishing.
 
-![asset-index-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/32054ef4-137e-4356-8f14-b368957a7e59)
-
-
 ### Create an option for asset indexes utility:
 To create an option for asset indexes utility, select the `options` sub-menu from the Asset Indexes Extra menu. You should fill in these fields in the provided form:  
 
@@ -55,10 +52,10 @@ is updated with the log for created item.
 `Enable`  
 You can disable this option to skip for checking/using this option.
 
-Create an asset index option
+#### Create an asset index option
 ![asset-indexes-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/c95c8dcc-374a-486f-9cf1-0b87acd7c1a6)
 
-Asset inex option index page
+#### Asset inex option index page
 ![asset-index-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/213295a8-e255-49fb-9c2e-c2498da12c8b)
 
 
