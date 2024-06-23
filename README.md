@@ -55,6 +55,10 @@ is updated with the log for created item.
 `Enable`  
 You can disable this option to skip for checking/using this option.
 
+Create an asset index option
+![asset-indexes-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/c95c8dcc-374a-486f-9cf1-0b87acd7c1a6)
+
+Asset inex option index page
 ![asset-index-options](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/213295a8-e255-49fb-9c2e-c2498da12c8b)
 
 
