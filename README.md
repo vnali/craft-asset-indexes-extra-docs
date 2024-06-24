@@ -118,6 +118,7 @@ View all asset index options| *assetIndexesExtra-viewAllOptions* | Can view all 
 Manage asset indexes options | *assetIndexesExtra-manageOptions* | Can manage options (view/edit/reorder/delete) for asset indexes utility.
 View logs | *assetIndexesExtra-viewLogs* | Can view the logs created by the user.
 View other users logs | *assetIndexesExtra-viewOtherUsersLogs* | Can view other user logs.
+View logs more info | *assetIndexesExtra-viewlogsMoreInfo* | Can view more info logs button and its data for each log record.
 Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs the user can view.
 Manage plugin Settings | *assetIndexesExtra-manageSettings* | Managing plugin settings.
 
