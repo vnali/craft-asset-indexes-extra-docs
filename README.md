@@ -61,10 +61,12 @@ You can disable this option to skip for checking/using this option.
 
 
 ## Log asset index results
-You can easily log asset index results by enabling 'Create a Log ...' on this plugin's general setting.  
-By enabling this option, after running the asset indexes utility, when an asset is created, a log record is also created.  
-Items created by asset index options also can be logged by enabling the `Log` light switch in each option.  
-Logs can be viewed on the 'admin/asset-indexes-extra/logs/index' page.
+- You can easily log asset index results by enabling 'Create a Log ...' on this plugin's general setting.
+  - By enabling this option, after running the asset indexes utility, when an asset is created, a log record is also created.
+  - Currently only successful asset creation are logged.
+- Items created by asset index options also can be logged by enabling the `Log` light switch in each option.
+  - Both success and error on item creation are logged. 
+- Logs can be viewed on the 'admin/asset-indexes-extra/logs/index' page.
 
 Items available in logs:  
 
@@ -100,6 +102,7 @@ By clicking this item you can see more details of a log record. Created assets a
 The date when the log is created in the site timezone.
 
 The logs can be searched via item's filename, result text, volume name, and username who run asset indexes.
+The logs can be sorted by `id`, `itemType`, `fileName`, `volume`, `username`, `cli` and status of log record (sory by status of log record is happening by clicking on detail column).
 
 ![Logs](https://github.com/vnali/asset-indexes-extra-documentation/assets/55586085/f9e96620-aefc-48f8-a6c0-0e9adf311ca8)
 
