@@ -125,6 +125,9 @@ View logs more info | *assetIndexesExtra-viewlogsMoreInfo* | Can view more info 
 Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs the user can view.
 Manage plugin Settings | *assetIndexesExtra-manageSettings* | Managing plugin settings.
 
+## ToDo
+- [ ] Test on the Craft Cloud.
+
 ## FAQ
 
 ## Known issues
