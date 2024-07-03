@@ -126,7 +126,7 @@ Delete logs | *assetIndexesExtra-deleteLogs* | Can delete the logs the user can 
 Manage plugin Settings | *assetIndexesExtra-manageSettings* | Managing plugin settings.
 
 ## ToDo
-- [ ] Test on the Craft Cloud.
+- [x] Test on the Craft Cloud.
 
 ## FAQ
 
