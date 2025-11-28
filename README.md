@@ -1,6 +1,9 @@
 # Asset Indexes Extra plugin for Craft CMS
 This Craft CMS plugin helps you to add extra functionalities to the Asset Indexes utility in Craft CMS.
 
+> [!CAUTION]
+> This plugin is minimally maintained. It does not appear to be actively used in production and is unlikely to receive updates for Craft 6.
+
 ## License & Pricing
 This is a commercial plugin available through the [Craft plugin store](https://plugins.craftcms.com/developer/vnali).
 
